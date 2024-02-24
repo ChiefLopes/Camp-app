@@ -19,7 +19,11 @@ const Navbar = () => {
             {links.label}
           </Link>
         ))}
-      </ul>
+          </ul>
+          
+          <div className="lg:flexCenter hidden">
+              
+          </div>
     </nav>
   );
 };
