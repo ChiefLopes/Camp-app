@@ -28,7 +28,8 @@ const CampSite = ({
             />
           </div>
           <div className="flex flex-col gap-1">
-
+            <h4 className="bold-18 text-gray-10">{title}</h4>
+            <p className="regular-14 text-gray-10"> {subtitle}</p>
           </div>
         </div>
       </div>
