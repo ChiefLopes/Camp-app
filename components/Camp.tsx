@@ -27,6 +27,9 @@ const CampSite = ({
               height={28}
             />
           </div>
+          <div className="flex flex-col gap-1">
+
+          </div>
         </div>
       </div>
     </div>
