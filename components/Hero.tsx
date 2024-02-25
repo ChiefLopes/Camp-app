@@ -26,9 +26,22 @@ const Hero = () => {
             {Array(5)
               .fill(1)
               .map((_, index) => (
-                <Image src="/star.svg" key={index} alt="stars" width={24} height={24} />
+                <Image
+                  src="/star.svg"
+                  key={index}
+                  alt="stars"
+                  width={24}
+                  height={24}
+                />
               ))}
           </div>
+
+          <p className="bold-16 lg:bold-20 text-blue-70">
+            198k
+            <span className="regular-16 lg:regular-20 ml-1 underline">
+              Excellent Reviews
+            </span>
+          </p>
         </div>
       </div>
     </section>
