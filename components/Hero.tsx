@@ -43,6 +43,8 @@ const Hero = () => {
             </span>
           </p>
         </div>
+
+        <div className="flex w-full gap-3 sm:flex-row"></div>
       </div>
     </section>
   );
