@@ -1,3 +1,4 @@
+import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
 
 interface CampProps {
@@ -31,6 +32,14 @@ const CampSite = ({
             <h4 className="bold-18 text-gray-10">{title}</h4>
             <p className="regular-14 text-gray-10"> {subtitle}</p>
           </div>
+        </div>
+
+        <div className="flexCenter gap-6">
+          <span className="flex -space-x-4 overflow-hidden">
+            {PEOPLE_URL.map((url) => (
+              <Image src={url} key={url} alt="person" width={50} height={50} />
+            ))}
+          </span>
         </div>
       </div>
     </div>
