@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -44,7 +45,21 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex w-full gap-3 sm:flex-row"></div>
+        <div className="flex w-full gap-3 flex-col sm:flex-row">
+          <Button type="button" title="Download App" variant="btn_green" />
+          <Button
+            type="button"
+            title="How we Work?"
+            variant="btn_white_text"
+            icon="/play.svg"
+          />
+        </div>
+      </div>
+
+      {/* RIGHT SIDE */}
+
+      <div className="relative flex flex-1 items-start border-2 border-blue-500">
+        <div className="relative z-20 w-[268px]"></div>
       </div>
     </section>
   );
