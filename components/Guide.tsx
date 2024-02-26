@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Guide = () => {
   return (
-    <div>Guide</div>
-  )
-}
+    <section className="flexCenter flex-col">
+      <div className="border-2 border-red-500 padding-container max-container w-full"></div>
+    </section>
+  );
+};
 
-export default Guide
+export default Guide;
