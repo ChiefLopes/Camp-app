@@ -14,7 +14,7 @@ const GetApp = () => {
             Available on iOS and Android, Download now!
           </p>
 
-          <div className="flex w-full">
+          <div className="flex w-full flex-col">
             <Button
               type="button"
               title="App Store"
